@@ -2,7 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import QuizClient from "./QuizClient"; // Import the client component
 import { generateQuestion, QUESTION_GENERATORS } from "@/services/questionService";
-import { findSkillById } from "@/constants";
 
 interface PageProps {
   params: { skillId: string };
