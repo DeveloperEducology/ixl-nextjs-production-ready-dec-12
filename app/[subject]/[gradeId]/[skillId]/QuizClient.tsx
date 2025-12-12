@@ -217,7 +217,7 @@ case "fill_blank":
 
   const handleNextAfterIncorrect = () => {
     setFeedbackState("idle");
-    setLastUserAnswer(null);
+    setLastUserAnswer('');
     loadNextQuestion();
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
