@@ -194,7 +194,7 @@ case "fill_blank":
 
         setTimeout(() => {
           setFeedbackState("idle");
-          setLastUserAnswer(null);
+          setLastUserAnswer('');
           loadNextQuestion(); // Client generates next question
         }, 1500);
       } else {
